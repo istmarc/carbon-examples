@@ -8,5 +8,5 @@ Install carbon from [https://github.com/carbon-language/carbon-lang](https://git
 
 ## Test
 
-To build the examples run `make`
+To build the examples run `sh build.sh`
 

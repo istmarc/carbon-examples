@@ -2,7 +2,8 @@ import Core library "io";
 import Core library "range";
 
 fn Run() -> i32 {
-	// alias Individual = {.age : char, .weight: f32};
+	// TODO alias Individual = {.age : char, .weight: f32};
+	// It's not yet supported
 	var student : {.age: i32, .weight : f32} = {.age = 25, .weight = 78.5};
 	var teacher : {.age: i32, .weight : f32} = {.age = 25, .weight = 78.5};
 

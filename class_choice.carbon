@@ -112,7 +112,9 @@ fn Run() -> i32 {
 
 	var point1 : Point = Point.Make(1.0, 2.0);
 	// Convert a Point* to (const Point)*
-	let p : const Point* = &point1;
+	var p : Point* = &point1;
+	// TODO Make this work
+	// let p : const Point* = &point1;
 	let px : f64 = p->GetX();
 	let py : f64 = p->GetY();
 

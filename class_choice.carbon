@@ -92,7 +92,7 @@ fn Run() -> i32 {
 			return {.base = Geom.Make("Point"), .x = x, .y = y};
 		}
 		// Destructor
-		fn Destroy[ref self : Self]() {
+		fn Destroy() {
 			Core.PrintStr("Destroying point");
 		}
 		// Distance
